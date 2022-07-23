@@ -55,8 +55,8 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 2.[Harshini S.]()
 
 ## References
-![For installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
-![For installation of Mavros](https://github.com/immersive-command-system/drone-mavros)
-![For installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)
-![For installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)
-![For launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)
+[For installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
+[For installation of Mavros](https://github.com/immersive-command-system/drone-mavros)
+[For installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)
+[For installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)
+[For launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)

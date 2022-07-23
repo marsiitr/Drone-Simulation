@@ -46,17 +46,24 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 
 ## Team Members
 
-1.[Abya Singh](https://github.com/abyasingh)
-2.[Gorre Apurva](https://github.com/apurvaa_2507)
+<ol>
+<li>[Abya Singh](https://github.com/abyasingh)</li>
+<li>[Gorre Apurva](https://github.com/apurvaa_2507)</li>
+</ol>
 
 ## Mentors
 
-1.[Nagesh Bansal](https://github.com/Nageshbansal)
-2.[Harshini S.]()
+<ol>
+<li>[Nagesh Bansal](https://github.com/Nageshbansal)</li>
+<li>[Harshini S.]()</li>
+</ol>
 
 ## References
-[For installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
-[For installation of Mavros](https://github.com/immersive-command-system/drone-mavros)
-[For installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)
-[For installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)
-[For launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)
+
+<ol>
+<li>[For installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)</li>
+<li>[For installation of Mavros](https://github.com/immersive-command-system/drone-mavros)</li>
+<li>[For installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)</li>
+<li>[For installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)</li>
+<li>[For launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)</li>
+</ol>

@@ -47,12 +47,12 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 ## Team Members
 
 1. [Abya Singh](https://github.com/abyasingh)
-2. [Gorre Apurva](https://github.com/apurvaa_2507)
+2. [Gorle Apurva](https://github.com/apurvaa_2507)
 
 ## Mentors
 
 1. [Nagesh Bansal](https://github.com/Nageshbansal)
-2. [Harshini S.]()
+2. Harshini S.
 
 ## References
 

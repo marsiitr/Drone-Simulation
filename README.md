@@ -40,9 +40,9 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 
 Some of the commands being executed:
 
-> modes.setTakeoff()
-> rate.sleep()
-> modes.setOffboardMode()
+> 1. modes.setTakeoff()
+> 2. rate.sleep()
+> 3. modes.setOffboardMode()
 
 </p>
 

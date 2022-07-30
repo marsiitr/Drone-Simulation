@@ -3,7 +3,7 @@
 
 A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.
 
-<p align="justify">![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)</p>
+![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)
 
 ## Motivation
 
@@ -17,11 +17,17 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 
 ### PX4
 
-<p align="justify">An autopilot was required to transmit our commands to the system. PX4 is a suitable source for that. It is an open source flight control software for drones and other unmanned vehicles. It provides the required set of tools for drone developers to share technologies and create proper solutions for drone applications. We used the most basic inbuilt iris model for our project.</p>
+<p align="justify">An autopilot was required to transmit our commands to the system. PX4 is a suitable source for that. It is an open source flight control software for drones and other unmanned vehicles. It provides the required set of tools for drone developers to share technologies and create proper solutions for drone applications. We used the most basic inbuilt iris model for our project.
+
+> roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+</p>
 
 ### Gazebo
 
-<p align="justify">Next, we installed Gazebo9-3D dynamic simulator. It is a high-class simulator that allows simulation of real-life environment, providing efficient simulation of varieties of robots in complex indoor and outdoor environments. It allows us to include practical forces such as gravity and friction.</p>
+<p align="justify">Next, we installed Gazebo9-3D dynamic simulator. It is a high-class simulator that allows simulation of real-life environment, providing efficient simulation of varieties of robots in complex indoor and outdoor environments. It allows us to include practical forces such as gravity and friction.
+
+> make px4_sitl gazebo
+</p>
 
 ### Take-off script
 
@@ -33,13 +39,13 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 ![Takeoff_P4](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P4.png)
 
 Some of the commands being executed:
-'''
-modes.setTakeoff()
-rate.sleep()
-modes.setOffboardMode()
-'''
+
+> modes.setTakeoff()
+> rate.sleep()
+> modes.setOffboardMode()
 
 </p>
+
 ## Applications
 
 <p align="justify">There are numerous significant applications of drone in our everyday lives. Some of the prominent ones include Aerial photography & videography, mapping & surveying, delivering goods, in search and rescue operations after a natural disaster, in security and military purposes.</p>

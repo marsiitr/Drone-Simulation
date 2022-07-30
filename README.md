@@ -3,7 +3,7 @@
 
 A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.
 
-![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)
+<p align="justify">![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)</p>
 
 ## Motivation
 
@@ -31,8 +31,15 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 ![Takeoff_P2](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P2.png)
 ![Takeoff_P3](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P3.png)
 ![Takeoff_P4](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P4.png)
-</p>
 
+Some of the commands being executed:
+'''
+modes.setTakeoff()
+rate.sleep()
+modes.setOffboardMode()
+'''
+
+</p>
 ## Applications
 
 <p align="justify">There are numerous significant applications of drone in our everyday lives. Some of the prominent ones include Aerial photography & videography, mapping & surveying, delivering goods, in search and rescue operations after a natural disaster, in security and military purposes.</p>

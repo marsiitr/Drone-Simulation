@@ -1,9 +1,10 @@
 # Drone-Simulation
 ## Abstract
 
-A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.
+<p align="justify">A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.
 
 ![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)
+</p>
 
 ## Motivation
 
@@ -33,10 +34,7 @@ A simulation of a basic drone model take-off up to a given altitude in a gazebo 
 
 <p align="justify">Finally, we needed a script for takeoff of our drone. A launch file was also needed. We create a python script in VS Code for this execution.
 
-![Takeoff_P1](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P1.png)
-![Takeoff_P2](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P2.png)
-![Takeoff_P3](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P3.png)
-![Takeoff_P4](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Take-off%20Scrpit%20P4.png)
+[Script](https://github.com/abyasingh/Drone-Simulation/blob/main/src/Take-off%20script.py)
 
 Some of the commands being executed:
 

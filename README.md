@@ -1,10 +1,10 @@
 # Drone-Simulation
 ## Abstract
 
-<p align="justify">A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.
+<p align="justify">A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.</p>
 
-![Final Product](https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png)
-</p>
+<p style="text-align:center;"><img src="https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png" alt="Logo"></p>
+
 
 ## Motivation
 

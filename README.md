@@ -4,7 +4,7 @@
 <p align="justify">A simulation of a basic drone model take-off up to a given altitude in a gazebo environment; with a PX4 autopilot supported by Mavros in Ubuntu.</p>
 
 <p align="center">
-  <img src="https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion%20of%20drone.png" />
+  <img src="https://github.com/abyasingh/Drone-Simulation/blob/main/Images%20and%20Videos/Images/Simultion.png" />
 </p>
 
 ## Motivation

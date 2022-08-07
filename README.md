@@ -35,7 +35,7 @@
 
 <p align="justify">Finally, we needed a script for takeoff of our drone. A launch file was also needed. We create a python script in VS Code for this execution.
 
-'''
+```
 def setTakeoff(self):
         print('waiting for service')
         # rospy.wait_for_service('mavros/cmd/takeoff')
@@ -47,7 +47,7 @@ def setTakeoff(self):
         except rospy.ServiceException as e:
             print ("Service takeoff call failed: %s"%e)
 
-'''
+```
 
 Some of the commands being executed:
 

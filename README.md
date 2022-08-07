@@ -35,7 +35,19 @@
 
 <p align="justify">Finally, we needed a script for takeoff of our drone. A launch file was also needed. We create a python script in VS Code for this execution.
 
-[Script](https://github.com/abyasingh/Drone-Simulation/blob/main/src/Take-off%20script.py)
+'''
+def setTakeoff(self):
+        print('waiting for service')
+        # rospy.wait_for_service('mavros/cmd/takeoff')
+        takeoffService = rospy.ServiceProxy('mavros/cmd/takeoff', mavros_msgs.srv.CommandTOL)
+        print('got')
+        try:
+            takeoffService = rospy.ServiceProxy('mavros/cmd/takeoff', mavros_msgs.srv.CommandTOL)
+            takeoffService(altitude = 10)
+        except rospy.ServiceException as e:
+            print ("Service takeoff call failed: %s"%e)
+
+'''
 
 Some of the commands being executed:
 

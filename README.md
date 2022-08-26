@@ -21,14 +21,18 @@
 
 <p align="justify">An autopilot was required to transmit our commands to the system. PX4 is a suitable source for that. It is an open source flight control software for drones and other unmanned vehicles. It provides the required set of tools for drone developers to share technologies and create proper solutions for drone applications. We used the most basic inbuilt iris model for our project.
 
-> roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+``` 
+roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+```
 </p>
 
 ### Gazebo
 
 <p align="justify">Next, we installed Gazebo9-3D dynamic simulator. It is a high-class simulator that allows simulation of real-life environment, providing efficient simulation of varieties of robots in complex indoor and outdoor environments. It allows us to include practical forces such as gravity and friction.
 
-> make px4_sitl gazebo
+```
+make px4_sitl gazebo
+```
 </p>
 
 ### Take-off script
@@ -51,9 +55,11 @@ def setTakeoff(self):
 
 Some of the commands being executed:
 
-> 1. modes.setTakeoff()
-> 2. rate.sleep()
-> 3. modes.setOffboardMode()
+```
+1. modes.setTakeoff()
+2. rate.sleep()
+3. modes.setOffboardMode()
+```
 
 </p>
 
@@ -76,13 +82,13 @@ Some of the commands being executed:
 
 ## Mentors
 
-1. [Nagesh Bansal](https://github.com/Nageshbansal)
-2. [Harshini S.](https://github.com/Harshini-festus)
+1. [Harshini S.](https://github.com/Harshini-festus)
+2. [Nagesh Bansal](https://github.com/Nageshbansal) 
 
 ## References
 
-1. [For installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
-2. [For installation of Mavros](https://github.com/immersive-command-system/drone-mavros)
-3. [For installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)
-4. [For installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)
-5. [For launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)
+1. [Installation of noetic version of Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu)
+2. [Installation of Mavros](https://github.com/immersive-command-system/drone-mavros)
+3. [Installation of PX4](https://github.com/PX4/PX4-SITL_gazebo>)
+4. [Installation of Gazebo](https://dev.px4.io/v1.10_noredirect/en/simulation/gazebo.html)
+5. [Launch file and iris model](https://docs.google.com/document/d/1re3MQy0Hwsjt1Ko96EiTB5wvbq_4QYZSZKgVmZGWsmg/edit)

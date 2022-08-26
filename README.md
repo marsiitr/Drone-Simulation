@@ -20,10 +20,9 @@
 ### PX4
 
 <p align="justify">An autopilot was required to transmit our commands to the system. PX4 is a suitable source for that. It is an open source flight control software for drones and other unmanned vehicles. It provides the required set of tools for drone developers to share technologies and create proper solutions for drone applications. We used the most basic inbuilt iris model for our project.
-
-``` 
+ 
 > roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
-```
+
 </p>
 
 ### Gazebo
